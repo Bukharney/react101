@@ -14,7 +14,7 @@ input:focus{
     outline: none;
 }
 .btn{
-    background-color: purple;
+    background-color:rgb(0, 218, 153);
     color: #fff;
     cursor: pointer;
     display: block;
