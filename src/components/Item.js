@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import './Item.css'
+
 const Item = ({title, amount})=> {
     const status = amount < 0 ? "expense" : "income"
     const symbol = amount < 0 ? "" : "+"
