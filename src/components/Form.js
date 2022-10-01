@@ -27,9 +27,9 @@ const FormComponent = (props)=>{
     }
     
     useEffect(()=>{
-        if(amount == 0){
+        if(amount === 0){
             setFormValid(true);
-        }else if(title == ''){
+        }else if(title === ''){
             setFormValid(true);
         }else{
             setFormValid(false);
